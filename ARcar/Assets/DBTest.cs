@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Firebase;
-using Firebase.Database;
+//using Firebase;
+//using Firebase.Database;
 using System;
 
 public class DBTest : MonoBehaviour
 {
-    public string databaseUrl = "https://arproject-22c5f-default-rtdb.asia-southeast1.firebasedatabase.app/";
+   /* public string databaseUrl = "https://arproject-22c5f-default-rtdb.asia-southeast1.firebasedatabase.app/";
     // Start is called before the first frame update
     void Start()
     {
@@ -47,5 +47,5 @@ public class Mans
         age = _age;
         weight = _weight;
         isMarry = _isMarry;
-    }
+    }*/
 }
