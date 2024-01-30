@@ -5,15 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/CarScene.unity
-    guid: da99153f35e59514d9f379193e86c71b
-  - enabled: 0
-    path: Assets/Scenes/MarkerSCENE.unity
-    guid: 89c961412ca753142a2da02c8cdf78a8
   - enabled: 1
-    path: Assets/Scenes/QRSCENE.unity
-    guid: 05916c9525d0dad418b7f17033463083
+    path: Assets/Scenes/MainScene.unity
+    guid: 2f723c279e05b864992c0aeb3a833d14
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 95b37348cf933474f9feb6ef86e5dfae, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 26d603965097c5243a2f0c80fc10b309, type: 2}
