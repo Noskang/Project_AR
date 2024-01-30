@@ -46,21 +46,27 @@ public class GameManager : MonoBehaviour
         {
 
             case 1:
+                gameState = GameState.rador;
                 currentUI = radorUI;
                 break;
             case 2:
+                gameState = GameState.ar;
                 currentUI = arUI;
                 break;
             case 3:
+                gameState = GameState.combat;
                 currentUI = combatUI;
                 break;
             case 4:
+                gameState = GameState.result;
                 currentUI = resultUI;
                 break;
             case 5:
+                gameState = GameState.dogam;
                 currentUI = dogamUI;
                 break;
             default:
+                gameState = GameState.rador;
                 currentUI = radorUI;
                 break;
         }
